@@ -7,14 +7,14 @@ pkg update upgrade
 pkg install php
 pkg install git
 git clone https://github.com/y0usefalsaadany/the-gate
-cd the-gate
 ```
-#If it doesn't work
+# if it doesn't work
 ```
 apt install php
 ```
 # running
 
 ```
+cd the-gate
 php -S localhost:8080
 ```
